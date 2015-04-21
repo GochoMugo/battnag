@@ -1,0 +1,12 @@
+{
+  "name": "battnag",
+  "version": "0.0.0",
+  "description": "don't forget charging your laptop",
+  "homepage": "https://github.com/GochoMugo/battnag",
+  "license": "MIT",
+  "author": {
+    "name": "GochoMugo",
+    "email": "mugo@forfuture.co.ke"
+  },
+  "main": "index.html"
+}
