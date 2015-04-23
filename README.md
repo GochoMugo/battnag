@@ -13,18 +13,24 @@
 * [ ] alert you when maximum/minimum set charge is reached
 * [ ] allows setting minimum and maximum preferred charge
 * [ ] start on system startup
-* [ ] available as binaries and source code
+* [ ] available as:
+  * [ ] binaries
+  * [ ] web interface
+  * [X] [source code](#source-code)
 
 
 ## installing/running:
 
 1. Binary Releases: I'm yet to roll out this one.
 
+1. Web interface: Also this is on Queue.
+
+<a name="source-code"></a>
 1. Running the Source code requires that you have [node-webkit][nwjs] installed. Assuming node-webkit is available as `nw` command:
 
-```bash
-⇒ nw .
-```
+  ```bash
+  ⇒ nw .
+  ```
 
 
 ## credits:
