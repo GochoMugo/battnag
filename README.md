@@ -1,6 +1,8 @@
 
 # battnag
 
+[![Build Status](https://travis-ci.org/GochoMugo/battnag.svg)](https://travis-ci.org/GochoMugo/battnag)
+
 > Work In Progress :construction_worker:
 
 
@@ -15,7 +17,7 @@
 * [ ] start on system startup
 * [ ] available as:
   * [ ] binaries
-  * [ ] web interface
+  * [X] [web interface](#web)
   * [X] [source code](#source-code)
 
 
@@ -23,7 +25,7 @@
 
 1. Binary Releases: I'm yet to roll out this one.
 
-1. Web interface: Also this is on Queue.
+1. <a name="web"></a>Web interface: Available at https://gochomugo.github.io/battnag/
 
 1. <a name="source-code"></a>Running the Source code requires that you have [node-webkit][nwjs] installed. Assuming node-webkit is available as `nw` command:
 
