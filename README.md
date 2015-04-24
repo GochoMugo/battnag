@@ -9,10 +9,10 @@
 ## features:
 
 * [ ] runs on:
-  * [ ] Linux
+  * [X] Linux
   * [ ] Mac OSX
   * [ ] Windows
-* [ ] alert you when maximum/minimum set charge is reached
+* [X] alert you when maximum/minimum set charge is reached
 * [ ] allows setting minimum and maximum preferred charge
 * [ ] start on system startup
 * [ ] available as:

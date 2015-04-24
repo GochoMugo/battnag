@@ -17,6 +17,7 @@ deploy:
   on:
     repo: GochoMugo/battnag
     branch: master
+    tags: true
 env:
   global:
     secure: ClBY71cSSwTO4fND9VANxHgy65NbPndOXKOwiTQP4fexcFs8tVro4C9eRN7AG4vYsNXNt6OG3tFHhIoEqvVxPJ+/ySKfNdnVNvl2xGhTkMFTiM2pxzE37z081ZVq3xjiTEAQHqvd5kaLbTL40oT7lKJa7I55xqMCm61AlPF0N0s=
