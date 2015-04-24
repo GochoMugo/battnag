@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title BattNag
+    link(rel="stylesheet", href="css/index.css")
+    if web
+      link(rel="stylesheet", href="css/web.css")
+
+body
+  div#wrapper
+    div#battery
+      div#battery-level
+      div#battery-knob
+    div#battery-info
+      div#battery-percentage
+  if web
+    div.banner-bottom
+      ul.downloads
+        li
+          a(href="https://github.com/GochoMugo/battnag/releases/latest") Github releases
+      section.copyright
+        p Copyright (c) 2015 
+          a(href="https://gochomugo.github.io") GochoMugo
+  if app
+    script(src="deps/jquery-1.11.2.min.js")
+    script(src="deps/battery.min.js")
+  else
+    script(src="//code.jquery.com/jquery-1.11.2.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/buzz/1.1.10/buzz.min.js")
+  script(src="deps/buzz.min.js")
+  script(src="js/index.js")

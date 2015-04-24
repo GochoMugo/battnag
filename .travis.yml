@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '0.12'
+before_install:
+- npm install -g grunt-cli
+install: script/deps.sh
+script:
+- script/build.sh
+- script/test.sh
+before_deploy: script/deploy.sh
+deploy:
+  provider: releases
+  api_key:
+    secure: K5SwhcI8qO9GBYw98lzuN/pvrN27IoTH1NfTQqLRpQoWfFn3gbqKIoVlrWZb5YNiR1jWCtCZxLnYF/PV4I2gTgcNY99j6O7T0y+BLdBL0kEA8twjIhUlZOTEtVStOZ/1LcBUvr10Ysow2Uk79PwJQdqlbZn6bupQzR4VdgqMksY=
+  file: releases/**/battnag-v*.app
+  file_glob: true
+  on:
+    repo: GochoMugo/battnag
+    branch: master

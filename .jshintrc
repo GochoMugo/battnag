@@ -1,0 +1,16 @@
+{
+  "browser": true,
+  "curly": true,
+  "eqeqeq": true,
+  "globals": {
+    "Battery": false,
+    "buzz": false
+  },
+  "indent": 2,
+  "jquery": true,
+  "maxlen": 72,
+  "node": true,
+  "strict": true,
+  "undef": true,
+  "unused": true
+}

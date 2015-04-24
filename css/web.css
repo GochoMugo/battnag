@@ -1,0 +1,37 @@
+.banner-bottom {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%
+}
+
+.downloads {
+  list-style: none;
+}
+
+.downloads li {
+  display: inline-block;
+}
+
+.downloads li a {
+  background: #f5f5f5;
+  border-radius: 4px;
+  color: #333;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 14px;
+  text-decoration: none;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+
+.downloads li a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+
+.copyright {
+  margin-top: 40px;
+  font-size: 12px;
+}
+

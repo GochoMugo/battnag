@@ -8,5 +8,18 @@
     "name": "GochoMugo",
     "email": "mugo@forfuture.co.ke"
   },
-  "main": "index.html"
+  "main": "index.html",
+  "platforms": [
+    "linux32",
+    "linux64",
+    "osx32",
+    "osx64",
+    "win32",
+    "win64"
+  ],
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-node-webkit-builder": "latest"
+  }
 }

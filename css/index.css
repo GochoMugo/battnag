@@ -51,7 +51,7 @@ body {
 #battery-level.charging,
 #battery-level.plugged {
   width: 100% !important;
-  background: url(res/plugged.png) no-repeat center white;
+  background: url(../res/plugged.png) no-repeat center white;
   -moz-transition: none;
   -webkit-transition: none;
   transition: none;

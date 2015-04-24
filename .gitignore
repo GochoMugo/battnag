@@ -1,3 +1,10 @@
 # our dependencies
 deps/
+node_modules/
+
+# output directory
+out/
+
+# directory used in ci
+repo/
 

@@ -25,11 +25,11 @@
 
 1. Web interface: Also this is on Queue.
 
-<a name="source-code"></a>
-1. Running the Source code requires that you have [node-webkit][nwjs] installed. Assuming node-webkit is available as `nw` command:
+1. <a name="source-code"></a>Running the Source code requires that you have [node-webkit][nwjs] installed. Assuming node-webkit is available as `nw` command:
 
   ```bash
-  ⇒ nw .
+  ⇒ script/build.sh # will work on *nix. Windows, sorry!
+  ⇒ nw out/app
   ```
 
 

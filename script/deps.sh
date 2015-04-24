@@ -21,6 +21,10 @@ mkdir -p deps
 cd deps
 
 
+log "installing node modules" 0
+npm install
+
+
 log "installing jquery" 0
 wget http://code.jquery.com/jquery-1.11.2.min.js
 
