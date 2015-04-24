@@ -18,6 +18,7 @@
     "win64"
   ],
   "devDependencies": {
+    "jade": "latest",
     "grunt": "latest",
     "grunt-contrib-jshint": "latest",
     "grunt-node-webkit-builder": "latest"

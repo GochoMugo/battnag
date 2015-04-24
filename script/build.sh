@@ -33,11 +33,11 @@ mkdir out/app
 
 
 log "compiling for web interface" 0
-jade index.jade --out out/web --obj '{ web: true }'
+$jade index.jade --out out/web --obj '{ web: true }'
 
 
 log "compiling for standalone app" 0
-jade index.jade --out out/app --obj '{ app: true }'
+$jade index.jade --out out/app --obj '{ app: true }'
 
 
 log "copying over other files" 0
