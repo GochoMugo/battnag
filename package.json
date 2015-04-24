@@ -1,0 +1,26 @@
+{
+  "name": "battnag",
+  "version": "0.0.0",
+  "description": "don't forget charging your laptop",
+  "homepage": "https://github.com/GochoMugo/battnag",
+  "license": "MIT",
+  "author": {
+    "name": "GochoMugo",
+    "email": "mugo@forfuture.co.ke"
+  },
+  "main": "index.html",
+  "platforms": [
+    "linux32",
+    "linux64",
+    "osx32",
+    "osx64",
+    "win32",
+    "win64"
+  ],
+  "devDependencies": {
+    "jade": "latest",
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-node-webkit-builder": "latest"
+  }
+}

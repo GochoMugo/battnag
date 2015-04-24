@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #111;
+}
+
+
+#wrapper {
+  position: relative;
+  top: 45%;
+}
+
+#battery {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -50px -161px;
+  width: 300px;
+  padding: 5px;
+  border: 6px solid white;
+  border-radius: 7px;
+}
+
+#battery-level {
+  color: #111;
+  font-size: 60px;
+  width: 0;
+  height: 100px;
+  background-color: white;
+  border-radius: 1px;
+  -moz-transition: all 300ms ease-out;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+#battery-level.low {
+  background-color: #e53d3d;
+}
+
+#battery-level.charging,
+#battery-level.plugged {
+  width: 100% !important;
+  background: url(../res/plugged.png) no-repeat center white;
+  -moz-transition: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+#battery-knob {
+  position: absolute;
+  left: 310px;
+  top: 50%;
+  margin-top: -22px;
+  height: 30px;
+  width: 10px;
+  border: 6px solid white;
+  border-radius: 7px;
+}
+
+#battery-info {
+  position: relative;
+  bottom: -70px;
+  color: #fff;
+  text-align: center;
+}
+
